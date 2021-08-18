@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
@@ -9,11 +8,11 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Welcome To <br />
-          My Personal Portfolio
+          Hello This Is <br />
+          Obi Nkemjika Derick
         </SectionTitle>
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+          I am a Software Engineer. I love to solve problems and create new web experiences for the people.
         </SectionText>
         <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>

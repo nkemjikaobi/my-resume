@@ -1,46 +1,105 @@
 export const projects = [
-  {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 0,
-  },
-  {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 1,
-  },
-  {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 2,
-  },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
-  },
+	{
+		title: 'Contact Keeper',
+		description:
+			'This is a web application to assist users in storing contacts.',
+		image: '/images/contact-keeper.png',
+		tags: ['MongoDB', 'Context API', 'Express', 'React', 'Node'],
+		source: 'https://github.com/nkemjikaobi/contact-keeper',
+		visit: 'https://deric-contact-keeper.herokuapp.com/',
+		id: 0,
+	},
+	{
+		title: 'Dericasts',
+		description:
+			'A web application to check the current weather of any city worldwide',
+		image: '/images/dericasts.png',
+		tags: ['React', 'JavaScript', 'Open Weather API', 'Docker'],
+		source: 'https://github.com/nkemjikaobi/dericasts',
+		visit: 'https://dericasts.netlify.app/',
+		id: 1,
+	},
+	{
+		title: 'Deribooks',
+		description:
+			'This is a web application that enables users create public and private stories as well as read the stories of other users.',
+		image: '/images/dericbooks.png',
+		tags: ['React', 'MongoDB', 'Express', 'Node', 'Passport', 'Moment'],
+		source: 'https://github.com/nkemjikaobi/deribooks',
+		visit: 'http://deribooks.herokuapp.com',
+		id: 2,
+	},
+	{
+		title: 'Student Profile',
+		description:
+			'A web application that displays student profiles, calculates grades and also filters by names and tags',
+		image: '/images/student-profile.png',
+		tags: ['React', 'Axios', 'UUID', 'React-Toast-Notifications'],
+		source: 'https://github.com/nkemjikaobi/hatchways',
+		visit: 'https://hatchways-evaluation.herokuapp.com/',
+		id: 3,
+	},
+	{
+		title: 'GitHub Finder',
+		description:
+			'This is a web application that searches through public repositories of users on GitHub. It also displays GitHub profile of the user',
+		image: '/images/github-finder.png',
+		tags: ['React', 'Axios', 'GitHub'],
+		source: 'https://github.com/nkemjikaobi/dericks-github-finder',
+		visit: 'https://dericks-github-finder.netlify.app/',
+		id: 4,
+	},
+	{
+		title: 'IT Logger',
+		description:
+			'This is a web application for IT technicians to add logs in order of priority i.e High or Low attention. Logs can be added and must be associated with a technicians',
+		image: '/images/it-logger.png',
+		tags: [
+			'React',
+			'Redux',
+			'Axios',
+			'Node Js',
+			'Mongo DB',
+		],
+		source: 'https://github.com/nkemjikaobi/IT-Logger-node-express',
+		visit: 'https://derick-it-logger.herokuapp.com/',
+		id: 5,
+	},
+	{
+		title: 'Knack',
+		description:
+			'An Employee Directory. This is a web application for an individual to view all employees in an organization, schedule meetings with available employees and also create surveys',
+		image: '/images/knack.png',
+		tags: [
+			'React',
+			'Context API',
+			'Materialize',
+			'Node Js',
+		],
+		source: 'https://github.com/nkemjikaobi/knack',
+		visit: 'https://knack-co.herokuapp.com/',
+		id: 6,
+	},
+	{
+		title: 'Deroku',
+		description:
+			'A website for a fictional hosting company',
+		image: '/images/deroku.png',
+		tags: [
+			'Html',
+			'Css',
+		],
+		source: 'https://github.com/nkemjikaobi/knack',
+		visit: 'https://deroku.netlify.app/',
+		id: 7,
+	},
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2017, text: 'Data Entry Clerk at Bollore Transport and Logistics', },
+  { year: 2019, text: 'Computer Science Instructor', },
+  { year: 2020, text: 'BackEnd Developer at Hotels NG(HNGi7)', },
+  { year: 2020, text: 'BackEnd Developer at WeJapa', },
+  { year: 2020, text: 'Mobile Web Specialist at Google Africa Development Scholarships', },
+  { year: 2021, text: 'Software Engineer at Konga', },
 ];

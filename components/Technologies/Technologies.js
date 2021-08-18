@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
@@ -20,7 +21,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            React.js
+            Javascript(React.js), Html, Css, 
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -32,7 +33,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            C#, NodeJs, Laravel and Databases like SQL and MongoDB
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -43,8 +44,20 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
+            Basic Knowledge of <br />
+            tools like Adobe PhotoShop
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiZend size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Other</ListTitle>
+          <ListParagraph>
             Experience with <br />
-            tools like Figma
+            Git, Docker
           </ListParagraph>
         </ListContainer>
       </ListItem>
