@@ -57,7 +57,7 @@ const Technologies = () =>  (
           <ListTitle>Other</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Git, Docker
+            Typescript,Git, Docker
           </ListParagraph>
         </ListContainer>
       </ListItem>
