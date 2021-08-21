@@ -79,13 +79,22 @@ export const projects = [
 		id: 7,
 	},
 	{
+		title: 'My Resume',
+		description: 'My Portfolio',
+		image: '/images/resume.png',
+		tags: ['Next Js', 'React', 'Styled Components'],
+		visit: 'https://github.com/nkemjikaobi/my-resume',
+		source: 'https://obi-nkemjika.netlify.app/',
+		id: 8,
+	},
+	{
 		title: 'HNG',
 		description: 'A website for advanced internship training program',
 		image: '/images/logos/hngi7.jpg',
 		tags: ['Html', 'Css'],
 		visit: '',
 		source: 'https://internship.zuri.team/',
-		id: 8,
+		id: 9,
 	},
 	{
 		title: 'Zuri',
@@ -94,7 +103,7 @@ export const projects = [
 		tags: ['Html', 'Css'],
 		visit: '',
 		source: 'https://training.zuri.team/',
-		id: 9,
+		id: 10,
 	},
 ];
 
