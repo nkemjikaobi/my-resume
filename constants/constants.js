@@ -1,5 +1,41 @@
 export const projects = [
 	{
+		title: 'Konga SuperApp',
+		description: 'Konga Super App',
+		image: '/images/super-app.png',
+		tags: ['Typescript', 'React', 'Styled Components', 'Material UI', 'Redux'],
+		visit: '#',
+		source: 'https://new.konga.com/',
+		id: 0,
+	},
+	{
+		title: 'My Resume',
+		description: 'My Portfolio',
+		image: '/images/resume.png',
+		tags: ['Next Js', 'React', 'Styled Components'],
+		visit: 'https://github.com/nkemjikaobi/my-resume',
+		source: 'https://obi-nkemjika.netlify.app/',
+		id: 1,
+	},
+	{
+		title: 'Zuri Chat',
+		description: 'Zuri Chat',
+		image: '/images/zuri-chat.png',
+		tags: ['Node Js', 'React', 'Styled Components', 'Material UI', 'Redux'],
+		visit: 'https://github.com/zurichat',
+		source: 'https://zuri.chat/',
+		id: 2,
+	},
+	{
+		title: 'Farm Hailing',
+		description: 'Farm Hailing',
+		image: '/images/hailing.png',
+		tags: ['React', 'Context UI', 'Redux'],
+		visit: '#',
+		source: 'https://staging.d1ro86o0zojtyp.amplifyapp.com/',
+		id: 3,
+	},
+	{
 		title: 'Contact Keeper',
 		description:
 			'This is a web application to assist users in storing contacts.',
@@ -7,7 +43,7 @@ export const projects = [
 		tags: ['MongoDB', 'Context API', 'Express', 'React', 'Node'],
 		visit: 'https://github.com/nkemjikaobi/contact-keeper',
 		source: 'https://deric-contact-keeper.herokuapp.com/',
-		id: 0,
+		id: 5,
 	},
 	{
 		title: 'Dericasts',
@@ -17,7 +53,7 @@ export const projects = [
 		tags: ['React', 'JavaScript', 'Open Weather API', 'Docker'],
 		visit: 'https://github.com/nkemjikaobi/dericasts',
 		source: 'https://dericasts.netlify.app/',
-		id: 1,
+		id: 6,
 	},
 	{
 		title: 'Deribooks',
@@ -27,7 +63,7 @@ export const projects = [
 		tags: ['React', 'MongoDB', 'Express', 'Node', 'Passport', 'Moment'],
 		visit: 'https://github.com/nkemjikaobi/deribooks',
 		source: 'http://deribooks.herokuapp.com',
-		id: 2,
+		id: 7,
 	},
 	{
 		title: 'Student Profile',
@@ -37,7 +73,7 @@ export const projects = [
 		tags: ['React', 'Axios', 'UUID', 'React-Toast-Notifications'],
 		visit: 'https://github.com/nkemjikaobi/hatchways',
 		source: 'https://hatchways-evaluation.herokuapp.com/',
-		id: 3,
+		id: 8,
 	},
 	{
 		title: 'GitHub Finder',
@@ -47,7 +83,7 @@ export const projects = [
 		tags: ['React', 'Axios', 'GitHub'],
 		visit: 'https://github.com/nkemjikaobi/dericks-github-finder',
 		source: 'https://dericks-github-finder.netlify.app/',
-		id: 4,
+		id: 9,
 	},
 	{
 		title: 'IT Logger',
@@ -57,7 +93,7 @@ export const projects = [
 		tags: ['React', 'Redux', 'Axios', 'Node Js', 'Mongo DB'],
 		visit: 'https://github.com/nkemjikaobi/IT-Logger-node-express',
 		source: 'https://derick-it-logger.herokuapp.com/',
-		id: 5,
+		id: 10,
 	},
 	{
 		title: 'Knack',
@@ -67,7 +103,7 @@ export const projects = [
 		tags: ['React', 'Context API', 'Materialize', 'Node Js'],
 		visit: 'https://github.com/nkemjikaobi/knack',
 		source: 'https://knack-co.herokuapp.com/',
-		id: 6,
+		id: 11,
 	},
 	{
 		title: 'Deroku',
@@ -76,42 +112,18 @@ export const projects = [
 		tags: ['Html', 'Css'],
 		visit: 'https://github.com/nkemjikaobi/knack',
 		source: 'https://deroku.netlify.app/',
-		id: 7,
-	},
-	{
-		title: 'My Resume',
-		description: 'My Portfolio',
-		image: '/images/resume.png',
-		tags: ['Next Js', 'React', 'Styled Components'],
-		visit: 'https://github.com/nkemjikaobi/my-resume',
-		source: 'https://obi-nkemjika.netlify.app/',
-		id: 8,
-	},
-	{
-		title: 'HNG',
-		description: 'A website for advanced internship training program',
-		image: '/images/logos/hngi7.jpg',
-		tags: ['Html', 'Css'],
-		visit: '',
-		source: 'https://internship.zuri.team/',
-		id: 9,
-	},
-	{
-		title: 'Zuri',
-		description: 'A website for an internship to train students',
-		image: '/images/logos/zuri.jpg',
-		tags: ['Html', 'Css'],
-		visit: '',
-		source: 'https://training.zuri.team/',
-		id: 10,
+		id: 12,
 	},
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Data Entry Clerk at Bollore Transport and Logistics', },
-  { year: 2019, text: 'Computer Science Instructor', },
-  { year: 2020, text: 'BackEnd Developer at Hotels NG(HNGi7)', },
-  { year: 2020, text: 'BackEnd Developer at WeJapa', },
-  { year: 2020, text: 'Mobile Web Specialist at Google Africa Development Scholarships', },
-  { year: 2021, text: 'Software Engineer at Konga', },
+	{ year: 2017, text: 'Data Entry Clerk at Bollore Transport and Logistics' },
+	{ year: 2019, text: 'Computer Science Instructor' },
+	{ year: 2020, text: 'BackEnd Developer at Hotels NG(HNGi7)' },
+	{ year: 2020, text: 'BackEnd Developer at WeJapa' },
+	{
+		year: 2020,
+		text: 'Mobile Web Specialist at Google Africa Development Scholarships',
+	},
+	{ year: 2021, text: 'Software Engineer at Konga' },
 ];

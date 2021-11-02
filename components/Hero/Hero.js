@@ -23,7 +23,7 @@ const Hero = props => (
 					I am a Software Engineer. I love to solve problems and create new web
 					experiences for the people.
 				</SectionText>
-				<Button onClick={showName}>Print Name</Button>
+				<Button onClick={showName}>Mucho Gusto</Button>
 			</LeftSection>
 		</Section>
 	</>
