@@ -9,6 +9,25 @@ export const projects = [
 		id: 0,
 	},
 	{
+		title: 'DJ Events',
+		description: 'A platform to show DJ Events coming up',
+		image: '/images/dj-events.png',
+		tags: ['Next Js', 'React', 'Strapi', 'PostgreSql'],
+		visit: 'https://github.com/nkemjikaobi/dj-events-frontend',
+		source: 'https://djeventsfrontend-derick.vercel.app/',
+		id: 13,
+	},
+	{
+		title: 'Space X',
+		description:
+			'An application consuming endpoints from space X using GraphQL and React Apollo Client',
+		image: '/images/space-x.png',
+		tags: ['Next Js', 'React', 'Strapi', 'PostgreSql'],
+		visit: 'https://github.com/nkemjikaobi/spaceX',
+		source: 'https://derick-spacex.herokuapp.com/',
+		id: 14,
+	},
+	{
 		title: 'My Resume',
 		description: 'My Portfolio',
 		image: '/images/resume.png',

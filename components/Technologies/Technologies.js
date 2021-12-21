@@ -20,8 +20,8 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            Javascript(React.js), Html, Css, 
+            Experience with <br />
+            Next Js, Typescript, React.js, Redux, Context API, Material UI, 
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -33,7 +33,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            C#, NodeJs, Laravel and Databases like SQL and MongoDB
+            NodeJs, GraphQL, C#, Laravel and Databases like MySQL, MongoDB and PostgreSql
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -57,7 +57,7 @@ const Technologies = () =>  (
           <ListTitle>Other</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Typescript,Git, Docker
+            Typescript,Git, Docker and Kubernetes
           </ListParagraph>
         </ListContainer>
       </ListItem>
