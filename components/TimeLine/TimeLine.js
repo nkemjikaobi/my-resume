@@ -46,7 +46,7 @@ const Timeline = () => {
 		<Section id='about'>
 			<SectionTitle>About Me</SectionTitle>
 			<SectionText>
-				A passion driven and imaginative Software Engineer who is able to work
+				An energetic and imaginative Software Engineer who is able to work
 				alongside other talented engineers in creating scalable web applications
 				to the very highest standards. I have a high awareness of industry
 				issues and trends. I am a very dedicated engineer that has the drive and

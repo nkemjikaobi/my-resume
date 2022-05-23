@@ -21,7 +21,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Next Js, Typescript, React.js, Redux, Context API, Material UI, 
+            Next Js, Typescript, React.js, Redux, Context API, Tailwind, Material UI, 
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -57,7 +57,7 @@ const Technologies = () =>  (
           <ListTitle>Other</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Typescript,Git, Docker and Kubernetes
+            Solidity, Web3, Git, Docker and Kubernetes
           </ListParagraph>
         </ListContainer>
       </ListItem>

@@ -3,11 +3,53 @@ export const projects = [
 		title: 'Konga SuperApp',
 		description: 'Konga Super App',
 		image: '/images/super-app.png',
-		tags: ['Typescript', 'React', 'Styled Components', 'Material UI', 'Redux'],
+		tags: ['Typescript', 'React', 'Redux'],
 		visit: '#',
 		source: 'https://new.konga.com/',
 		id: 0,
 	},
+	{
+		title: 'NFT MarketPlace',
+		description:
+			"An NFT MarketPlace to mint NFT's on both Ethereum and Ardor Network",
+		image: '/images/nft.png',
+		tags: ['Typescript', 'Next Js', 'Tailwind Css', 'Context API'],
+		visit: 'https://nft-africa.vercel.app/',
+		source: '#',
+	},
+	{
+		title: 'CowVest',
+		description: 'A budgeting app',
+		image: '/images/cowvest.png',
+		tags: ['Typescript', 'Next Js', 'Tailwind Css', 'Context API'],
+		visit: 'https://cowvest-frontend.vercel.app/',
+		source: 'https://github.com/nkemjikaobi/cowvest-frontend',
+	},
+	{
+		title: 'DevSpace Blog',
+		description: 'A static blog built with NextJs',
+		image: '/images/blog.png',
+		tags: ['Next Js', 'Tailwind Css'],
+		visit: 'https://devspace-blog-flax.vercel.app/',
+		source: 'https://github.com/nkemjikaobi/devspace-blog',
+	},
+	{
+		title: 'Damazon API Gateway',
+		description: 'A GraphQL based API Gateway to other microservices',
+		image: '/images/graphql.png',
+		tags: ['Node Js', 'Apollo Server', 'GraphQL'],
+		visit: '#',
+		source: 'https://github.com/nkemjikaobi/damazon-api-gateway',
+	},
+	{
+		title: 'Voting Dapp',
+		description: 'A votind dapp built on web3',
+		image: '/images/voting.png',
+		tags: ['Web3', 'Typescript', 'Next Js', 'Tailwind', 'Context API'],
+		visit: 'https://voting-dapp-frontend.vercel.app/',
+		source: 'https://github.com/nkemjikaobi/voting-dapp-frontend',
+	},
+
 	{
 		title: 'DJ Events',
 		description: 'A platform to show DJ Events coming up',
@@ -18,11 +60,19 @@ export const projects = [
 		id: 13,
 	},
 	{
+		title: 'Decentralised Library',
+		description: 'A decentralised library built on web3',
+		image: '/images/dinata.png',
+		tags: ['Web3', 'Typescript', 'Next Js', 'Tailwind', 'Context API'],
+		visit: 'https://dinata.vercel.app/',
+		source: 'https://github.com/nkemjikaobi/decentralised-file-storage',
+	},
+	{
 		title: 'Space X',
 		description:
 			'An application consuming endpoints from space X using GraphQL and React Apollo Client',
 		image: '/images/space-x.png',
-		tags: ['Next Js', 'React', 'Strapi', 'PostgreSql'],
+		tags: ['Next Js', 'React', 'GraphQL'],
 		visit: 'https://github.com/nkemjikaobi/spaceX',
 		source: 'https://derick-spacex.herokuapp.com/',
 		id: 14,
@@ -137,12 +187,7 @@ export const projects = [
 
 export const TimeLineData = [
 	{ year: 2017, text: 'Data Entry Clerk at Bollore Transport and Logistics' },
-	{ year: 2019, text: 'Computer Science Instructor' },
-	{ year: 2020, text: 'BackEnd Developer at Hotels NG(HNGi7)' },
-	{ year: 2020, text: 'BackEnd Developer at WeJapa' },
-	{
-		year: 2020,
-		text: 'Mobile Web Specialist at Google Africa Development Scholarships',
-	},
-	{ year: 2021, text: 'Software Engineer at Konga' },
+	{ year: 2018, text: 'BackEnd Developer at Hotels NG' },
+	{ year: 2019, text: 'Front end Engineer Zuri Chat' },
+	{ year: 2020, text: 'Software Engineer at Konga' },
 ];
