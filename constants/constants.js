@@ -9,6 +9,22 @@ export const projects = [
 		id: 0,
 	},
 	{
+		title: 'CitiSquare',
+		image: '/images/citisquare.png',
+		tags: ['Typescript', 'NextJs', 'GraphQL'],
+		visit: '#',
+		source: 'https://citisquare.africa/',
+		id: 100,
+	},
+	{
+		title: 'Cryp',
+		image: '/images/cryp.png',
+		tags: ['Typescript', 'NextJs', 'GraphQL'],
+		visit: '#',
+		source: 'https://cryp.africa/',
+		id: 200,
+	},
+	{
 		title: 'NFT MarketPlace',
 		description:
 			"An NFT MarketPlace to mint NFT's on both Ethereum and Ardor Network",
