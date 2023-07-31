@@ -20,12 +20,15 @@ const Hero = props => (
 					Obi Nkemjika Derick
 				</SectionTitle>
 				<SectionText>
-					An energetic and imaginative Software Engineer who is able to work
-					alongside other talented engineers in creating scalable web
-					applications to the very highest standards. I have a high awareness of
-					industry issues and trends. I am a very dedicated engineer that has
-					the drive and massive energy needed to really make a difference to a
-					project and create value to my employers.
+					Innovative, confident and driven technical enthusiast with years of
+					diversified career experience and a solid educational foundation.
+					Skilled at partnering cross-departmentally with talented peer
+					colleagues to develop and introduce scalable web applications created
+					in accordance with exceptional standards. Leverage existing strategies
+					and adapt robust yet dynamic technologies to overcome challenges as
+					they emerge. Strive to be impactful when working on projects in order
+					to create value for employers. Dedicated with a positive attitude and
+					strong work ethic.
 				</SectionText>
 				<Button onClick={showName}>Mucho Gusto</Button>
 			</LeftSection>
