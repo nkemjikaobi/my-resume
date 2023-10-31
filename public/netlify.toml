@@ -1,0 +1,5 @@
+# Redirect with a 301
+[[redirects]]
+from = "https://obi-nkemjika.netlify.app/"
+to = "https://nkemjikaobi.dev/"
+status = 301
