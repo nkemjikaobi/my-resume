@@ -1,5 +1,0 @@
-# Redirect with a 301
-[[redirects]]
-from = "/"
-to = "https://nkemjikaobi.dev/"
-status = 301
